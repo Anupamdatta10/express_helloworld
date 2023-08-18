@@ -26,6 +26,4 @@ app.get('/hello',(req,res)=>{
   res.send({"message":"hello world!!"})
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
+module.exports=  app ;
